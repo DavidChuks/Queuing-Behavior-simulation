@@ -1,6 +1,5 @@
 	/* 
 
-	exampleApplication.cpp - application file for a program named example
 	=====================================================================
 
 	Problem Definition
@@ -10,11 +9,11 @@
 	the lights stay green, amber, and red. The following information is read from a file and used as variables
 	in the program.
 
-	• The arrival rate in vehicles per minute.
-	• The average departure time per car in seconds.
-	• The running time for the simulation, specified in minutes.
-	• The time increment to use for each discrete interval of simulation, specified in milliseconds.
-	• The traffic light sequencing given by the time the lights stay green, amber, and red,
+	â€¢ The arrival rate in vehicles per minute.
+	â€¢ The average departure time per car in seconds.
+	â€¢ The running time for the simulation, specified in minutes.
+	â€¢ The time increment to use for each discrete interval of simulation, specified in milliseconds.
+	â€¢ The traffic light sequencing given by the time the lights stay green, amber, and red,
 	specified in seconds.
 
 	The program calculates the average and maximum lengths of the queue of cars and
@@ -83,12 +82,12 @@
 
 	At This point I start getting statistics
 
-	• Total number of cars in the simulation.
-	• Queue lenght per interval.
-	• Averag queue length
-	• maximum queue length
-	• Maximum waiting time
-	• Average and maximum waiting time
+	â€¢ Total number of cars in the simulation.
+	â€¢ Queue lenght per interval.
+	â€¢ Averag queue length
+	â€¢ maximum queue length
+	â€¢ Maximum waiting time
+	â€¢ Average and maximum waiting time
 
 	After the main simulation loop, I check the queue to see if there are any cars still
 	waiting. These have to be dequeued and the time they have been waiting is added to the running total
@@ -415,10 +414,6 @@ int main() {
 		fprintf(fp_out,"Maximum wait: %d s\n", maxWaitTime/1000);
 		fprintf(fp_out,"\n");
 
-
-		//printf("Total number of cars that arrived are: %d %d %d\n",cars, qlenght,size(list));
-		//print(&list);
-		//printf("Values: %d %f %d %d %d %d %d %f\n", arrival_rate_input,arrival_rate,runtime,increment,green,amber,red,lambda);
 
 	}
 	fclose(fp_in);
