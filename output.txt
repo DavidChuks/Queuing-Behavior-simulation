@@ -1,0 +1,51 @@
+dchukwue
+Arrival rate: 10 cars per min
+Departure rate:	5 s per car
+Runtime: 5 mins
+Time increment:	10 ms
+Light sequence:	Green 10 s; Amber 1 s; Red 30 s
+Average length: 13 cars
+Maximum length: 23 cars
+Average wait: 135 s
+Maximum wait: 251 s
+
+Arrival rate: 10 cars per min
+Departure rate:	5 s per car
+Runtime: 5 mins
+Time increment:	10 ms
+Light sequence:	Green 10 s; Amber 1 s; Red 30 s
+Average length: 23 cars
+Maximum length: 45 cars
+Average wait: 135 s
+Maximum wait: 281 s
+
+Arrival rate: 10 cars per min
+Departure rate:	5 s per car
+Runtime: 5 mins
+Time increment:	10 ms
+Light sequence:	Green 10 s; Amber 1 s; Red 30 s
+Average length: 16 cars
+Maximum length: 43 cars
+Average wait: 100 s
+Maximum wait: 215 s
+
+Arrival rate: 10 cars per min
+Departure rate:	5 s per car
+Runtime: 0 mins
+Time increment:	10 ms
+Light sequence:	Green 10 s; Amber 1 s; Red 30 s
+Average length: 0 cars
+Maximum length: 0 cars
+Average wait: 0 s
+Maximum wait: 0 s
+
+Arrival rate: 0 cars per min
+Departure rate:	5 s per car
+Runtime: 10 mins
+Time increment:	10 ms
+Light sequence:	Green 10 s; Amber 1 s; Red 30 s
+Average length: 0 cars
+Maximum length: 0 cars
+Average wait: 0 s
+Maximum wait: 0 s
+
